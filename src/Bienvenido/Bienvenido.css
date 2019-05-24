@@ -1,0 +1,15 @@
+.container-welcome {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-image: url('../img/img1.jpg');
+    position: relative;
+    z-index: 1;
+}
