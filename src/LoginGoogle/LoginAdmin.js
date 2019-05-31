@@ -94,7 +94,7 @@ class Login extends React.Component {
             return (
                 <div>
                     <ul>
-                        <li>Bienvenido</li>
+                        <li>Bienvenido a nuestra página</li>
                         <li><img width="5%" src={this.state.user.photoURL} alt={this.state.user.displayName}></img>{this.state.user.displayName} </li>
                         <li><button onClick={this.handleLogout}>CLOSE</button></li>
                     </ul>
