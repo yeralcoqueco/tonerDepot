@@ -96,7 +96,7 @@ class Login extends React.Component {
                     <ul>
                         <li>Bienvenido</li>
                         <li><img width="5%" src={this.state.user.photoURL} alt={this.state.user.displayName}></img>{this.state.user.displayName} </li>
-                        <li><button onClick={this.handleLogout}>Salir</button></li>
+                        <li><button onClick={this.handleLogout}>CLOSE</button></li>
                     </ul>
                     {/*<img width="30%" src={this.state.user.photoURL} alt={this.state.user.displayName}></img>
                     <p>Bienvenido {this.state.user.displayName}</p>
